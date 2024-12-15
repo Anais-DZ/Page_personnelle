@@ -137,6 +137,16 @@ a:active {
     flex-direction: column;
 }
 
+.overlay-content p {
+    text-align: center;
+    letter-spacing: 2px;
+    font-family: 'Roboto Condensed';
+    font-style: italic;
+    font-size: 40px;
+    color: white;
+    margin: 20px;
+}
+
 .overlay-content a {
     display: flex;
     flex-direction: column;
@@ -183,6 +193,7 @@ a:active {
 
 /* Affiche l'overlay si la checkbox est cochée */
 #overlay-toggle-contacts:checked ~ #overlay-contacts,
+#overlay-toggle-projet:checked ~ #overlay-projet, 
 #overlay-toggle-cv:checked ~ #overlay-cv {
     display: flex;
 }
@@ -235,9 +246,9 @@ a:active {
     }
 
     .overlay-content {
-        width: 100%; /* Prend 1/3 de la largeur sur les petits écrans */
-        height: auto; /* Hauteur automatique pour les petits écrans */
-        max-width: 250px; /* Largeur maximale sur petits écrans */
+        width: 50%;
+        height: auto;
+        max-width: 600px;
     }
 
     .overlay-content a {
@@ -254,6 +265,10 @@ a:active {
 
     #overlay-toggle-cv a {
         text-align: center;
-        font-size: 28px;
+        font-size: 22px;
+    }
+
+    .overlay-content p {
+        font-family: 18px;
     }
 }

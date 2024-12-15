@@ -20,7 +20,7 @@
             <ul class="menu-list">
                 <li><label for="overlay-toggle-cv" class="links">CV</label></li>
                 <li><a href="https://www.linkedin.com/in/anaïs-diez" class="links" target="_blank">LinkedIn</a></li>
-                <li><a href="https://www.figma.com/design/I3VE2n0b4SOG1q0VF3Tl2E/Projet-Ver'ify-Compost?node-id=672-1132&node-type=canvas&t=hweVFGwSEwvgwlLe-0" class="links" target="_blank">Figma</a></li>
+                <li><label for="overlay-toggle-projet" class="links">Projet: Ver'ify Compost</label></li>
                 <li><a href="https://github.com/Anais-DZ" class="links" target="_blank">GitHub</a></li>
                 <li><a href="https://www.flickr.com/photos/themis_photographie/" class="links" target="_blank">Flikr</a></li>
                 <!-- Nouveau bouton pour afficher l'overlay -->
@@ -30,6 +30,7 @@
 
         <!-- Checkbox pour gérer l'état de l'overlay -->
         <input type="checkbox" id="overlay-toggle-cv" class="overlay-toggle">
+        <input type="checkbox" id="overlay-toggle-projet" class="overlay-toggle">
         <input type="checkbox" id="overlay-toggle-contacts" class="overlay-toggle">
 
         <!-- Overlay pour les contacts -->
@@ -42,6 +43,19 @@
                     </li>
                     <li>
                         <a href="CV_A_DIEZ.pdf" target="_blank">CV en PDF</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="overlay" id="overlay-projet">
+            <div class="overlay-content">
+                <label for="overlay-toggle-projet" class="close-button">&times;</label>
+                <ul>
+                    <li>
+                        <p>J'ai choisi de réaliser un site web mobile, Ver'ify Compost, dédié à l'aide au tri des biodéchets. Ce site a pour objectif de sensibiliser les utilisateurs, de les accompagner dans leurs démarches de tri écologique et de contribuer à réduire l'excès de déchets jetés. Actuellement, la maquette ainsi que le prototype dynamique du site sont disponibles sur mon espace Figma.</p>
+                    </li>
+                    <li>
+                        <a href="https://www.figma.com/design/I3VE2n0b4SOG1q0VF3Tl2E/Projet-Ver'ify-Compost?node-id=672-1132&node-type=canvas&t=hweVFGwSEwvgwlLe-0" target="_blank"><img src="./Images/logo_figma.png" alt="logo_figma" class="logo_contact" /></a>
                     </li>
                 </ul>
             </div>
