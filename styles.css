@@ -131,9 +131,8 @@ a:active {
 
 .overlay-content ul {
     list-style: none;
-    padding: 0;
+    padding: 90px 0;
     margin: 20px 0;
-    margin-top: 60px;
     display: flex;
     flex-direction: column;
 }
@@ -247,5 +246,9 @@ a:active {
 
     .close-button {
         font-size: 40px;
+    }
+
+    .overlay-content ul {
+        padding: 30px 0;
     }
 }
