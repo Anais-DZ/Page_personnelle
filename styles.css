@@ -126,10 +126,6 @@ a:active {
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-    text-align: center;
-    letter-spacing: 2px;
-    font-size: 32px;
-    font-weight: bold;
     z-index: 10; /* Assure que l'overlay-content reste au-dessus de l'overlay */
 }
 
@@ -137,9 +133,9 @@ a:active {
     list-style: none;
     padding: 0;
     margin: 20px 0;
+    margin-top: 60px;
     display: flex;
     flex-direction: column;
-    align-content: space-around;
 }
 
 .overlay-content a {
@@ -150,17 +146,21 @@ a:active {
     color: white;
     font-weight: bold;
     margin: 10px;
+    letter-spacing: 2px;
+    font-size: 24px;
 }
 
 .overlay-content a img {
+    transition: transform 0.5s;
+    margin-top: 15px;
+    margin-bottom: 10px ;
+    text-align: center;
+
+}
+
+.overlay-content img {
     width: 30%;
     height: auto;
-    transition: transform 0.5s;
-    margin-top: 10px;
-    text-align: center;
-    letter-spacing: 2px;
-    font-size: 40px;
-    font-weight: bold;
 }
 
 .overlay-content li:hover {
@@ -176,10 +176,10 @@ a:active {
 .close-button {
     position: absolute;
     top: 5px;
-    right: 10px;
-    font-size: 40px;
+    right: 25px;
     color: white;
     cursor: pointer;
+    font-size: 100px;
 }
 
 /* Affiche l'overlay si la checkbox est cochée */
@@ -238,6 +238,13 @@ a:active {
         width: 100%; /* Prend 1/3 de la largeur sur les petits écrans */
         height: auto; /* Hauteur automatique pour les petits écrans */
         max-width: 200px; /* Largeur maximale sur petits écrans */
-        font-size: 200%;
+    }
+
+    .overlay-content a {
+        font-size: 20px;
+    }
+
+    .close-button {
+        font-size: 40px;
     }
 }
