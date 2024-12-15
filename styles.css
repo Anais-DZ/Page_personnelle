@@ -1,0 +1,243 @@
+html, body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background-image: url('Images/background.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+.profile_picture {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 45%;
+    height: auto;
+    border-radius: 50%;
+    border: solid #ffffff 3px;
+    box-shadow: 1px 3px 10px #886b89;
+    position: relative;
+    top: 80px;
+    margin-bottom: 0;
+    background: linear-gradient(90deg, rgba(217,184,193,1) 0%, rgba(165,133,166,1) 50%, rgba(242,141,141,1) 100%);
+}
+
+.profile_name {
+    letter-spacing: 3px;
+    text-align: center;
+    padding-bottom: 20px;
+    color: #6a486c;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 48px;
+    font-family: 'Lexend Deca';
+}
+
+.links {
+    letter-spacing: 3px;
+    font-family: 'Lexend Deca';
+    font-size: 38px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding: 35px 65px;
+    border: 4px solid #ffffff;
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50px;
+    box-shadow: 1px 3px 10px #886b89;
+    font-weight: bold;
+    text-decoration: none;
+    color: #ffffff;
+    cursor: pointer;
+    background: linear-gradient(90deg, rgba(217,184,193,1) 10%, rgba(165,133,166,1) 60%, rgba(242,141,141,1) 100%);
+    transition: color 0.5s;
+}
+
+.menu-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0;
+}
+
+
+a:active {
+    background: #ffffff2c;
+    color: #6a486c;
+}
+
+.information {
+    background-color: #ffffff5e;
+    width: 80%;
+    height: 60%;
+    padding: 150px 60px;
+    border-radius: 15px;
+    margin-top: -45px;
+    align-self: center;
+}
+
+.profile_presentation {
+    letter-spacing: 2px;
+    color: #6a486c;
+    font-family: 'Roboto Condensed';
+    font-size: 34px;
+    font-style: oblique;
+    text-align: center;
+    margin: 0;
+    width: 100%;
+    justify-self: center;
+}
+
+/* Fond sombre pour l'overlay */
+.overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(240, 237, 239, 0.7);
+    z-index: 1000;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Contenu de l'overlay */
+.overlay-content {
+    position: relative;
+    width: 50%;
+    height: auto;
+    background: rgba(165,133,166,1);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: 32px;
+    font-weight: bold;
+    z-index: 10; /* Assure que l'overlay-content reste au-dessus de l'overlay */
+}
+
+.overlay-content ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+}
+
+.overlay-content a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.overlay-content a img {
+    width: 30%;
+    height: auto;
+    transition: transform 0.5s;
+    margin-top: 10px;
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.overlay-content li:hover {
+    transform: scale(1.3); /* Zoom des images au survol */
+    transition-duration: 0.3s;
+}
+
+.overlay-content li {
+    transition-duration: 0.3s;
+}
+
+/* Bouton de fermeture */
+.close-button {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    font-size: 40px;
+    color: white;
+    cursor: pointer;
+}
+
+/* Affiche l'overlay si la checkbox est cochée */
+#overlay-toggle-contacts:checked ~ .overlay {
+    display: flex;
+}
+
+/* Masquer la checkbox */
+.overlay-toggle {
+    display: none;
+}
+
+
+@media (min-width: 1000px) {
+    .links:hover {
+        background: #ffffff2c;
+        color: #6a486c;
+    }
+
+    .profile_picture {
+        width: 150px;
+        height: auto;
+        border: solid #ffffff 2px;
+        top: 70px;
+    }
+    
+    .profile_name {
+        padding-bottom: 10px;
+        margin-top: -30px;
+        font-size: 20px;
+    }
+    
+    .links {
+        font-size: 16px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding: 10px 30px;
+        border: 2px solid #ffffff;
+        width: 250px;
+    }
+    
+    .information {
+        width: 300px;
+        height: 400px;
+        padding: 100px 60px;
+        margin-top: 20px;
+    }
+    
+    .profile_presentation {
+        font-size: 16px;
+        margin-bottom: 20px;
+        width: 350px;
+    }
+
+    .overlay-content {
+        width: 100%; /* Prend 1/3 de la largeur sur les petits écrans */
+        height: auto; /* Hauteur automatique pour les petits écrans */
+        max-width: 200px; /* Largeur maximale sur petits écrans */
+        font-size: 200%;
+    }
+}
