@@ -120,7 +120,7 @@ a:active {
 /* Contenu de l'overlay */
 .overlay-content {
     position: relative;
-    width: 50%;
+    width: 80%;
     height: auto;
     background: rgba(165,133,166,1);
     padding: 20px;
@@ -138,13 +138,13 @@ a:active {
 }
 
 .overlay-content p {
-    text-align: center;
+    text-align: justify;
     letter-spacing: 2px;
     font-family: 'Roboto Condensed';
     font-style: italic;
-    font-size: 40px;
+    font-size: 46px;
     color: white;
-    margin: 20px;
+    margin: 10px 70px;
 }
 
 .overlay-content a {
@@ -168,7 +168,7 @@ a:active {
 }
 
 .overlay-content img {
-    width: 30%;
+    width: 20%;
     height: auto;
 }
 
