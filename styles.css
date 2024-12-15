@@ -144,9 +144,9 @@ a:active {
     text-decoration: none;
     color: white;
     font-weight: bold;
-    margin: 10px;
+    margin: 20px;
     letter-spacing: 2px;
-    font-size: 26px;
+    font-size: 46px;
     font-family: 'Roboto Condensed';
     font-style: oblique;
 }
@@ -155,7 +155,6 @@ a:active {
     transition: transform 0.5s;
     margin-top: 15px;
     margin-bottom: 10px ;
-    text-align: center;
 }
 
 .overlay-content img {
@@ -183,7 +182,8 @@ a:active {
 }
 
 /* Affiche l'overlay si la checkbox est cochée */
-#overlay-toggle-contacts:checked ~ .overlay {
+#overlay-toggle-contacts:checked ~ #overlay-contacts,
+#overlay-toggle-cv:checked ~ #overlay-cv {
     display: flex;
 }
 
@@ -237,7 +237,7 @@ a:active {
     .overlay-content {
         width: 100%; /* Prend 1/3 de la largeur sur les petits écrans */
         height: auto; /* Hauteur automatique pour les petits écrans */
-        max-width: 200px; /* Largeur maximale sur petits écrans */
+        max-width: 250px; /* Largeur maximale sur petits écrans */
     }
 
     .overlay-content a {
@@ -250,5 +250,10 @@ a:active {
 
     .overlay-content ul {
         padding: 30px 0;
+    }
+
+    #overlay-toggle-cv a {
+        text-align: center;
+        font-size: 28px;
     }
 }

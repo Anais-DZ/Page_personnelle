@@ -18,7 +18,7 @@
             <p class="profile_presentation">En recherche de stage dans le Développement Web & Web mobile Full Stack du 24 mars 2025 au 17 mai 2025</p>
 
             <ul class="menu-list">
-                <li><a href="cv_a_diez.pdf" class="links" target="_blank">Mon CV</a></li>
+                <li><label for="overlay-toggle-cv" class="links">CV</label></li>
                 <li><a href="https://www.linkedin.com/in/anaïs-diez" class="links" target="_blank">LinkedIn</a></li>
                 <li><a href="https://www.figma.com/design/I3VE2n0b4SOG1q0VF3Tl2E/Projet-Ver'ify-Compost?node-id=672-1132&node-type=canvas&t=hweVFGwSEwvgwlLe-0" class="links" target="_blank">Figma</a></li>
                 <li><a href="https://github.com/Anais-DZ" class="links" target="_blank">GitHub</a></li>
@@ -29,10 +29,24 @@
         </section>
 
         <!-- Checkbox pour gérer l'état de l'overlay -->
+        <input type="checkbox" id="overlay-toggle-cv" class="overlay-toggle">
         <input type="checkbox" id="overlay-toggle-contacts" class="overlay-toggle">
 
         <!-- Overlay pour les contacts -->
-        <div class="overlay">
+        <div class="overlay" id="overlay-cv">
+            <div class="overlay-content">
+                <label for="overlay-toggle-cv" class="close-button">&times;</label>
+                <ul>
+                    <li>
+                        <a href="cv_a_diez.pdf" target="_blank">CV en HTML/CSS</a>
+                    </li>
+                    <li>
+                        <a href="https://cv-adiez.vercel.app/" target="_blank">CV en PDF</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="overlay" id="overlay-contacts">
             <div class="overlay-content">
                 <label for="overlay-toggle-contacts" class="close-button">&times;</label>
                 <ul>
