@@ -147,7 +147,9 @@ a:active {
     font-weight: bold;
     margin: 10px;
     letter-spacing: 2px;
-    font-size: 24px;
+    font-size: 26px;
+    font-family: 'Roboto Condensed';
+    font-style: oblique;
 }
 
 .overlay-content a img {
@@ -155,7 +157,6 @@ a:active {
     margin-top: 15px;
     margin-bottom: 10px ;
     text-align: center;
-
 }
 
 .overlay-content img {
