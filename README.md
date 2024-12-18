@@ -1,7 +1,7 @@
 # Page_personnelle
 
 **Qui a fait ce projet ?**
-<br/>Ce projet, c’est moi, Anaïs. En pleine reconversion professionnelle vers le développement web, j’ai pris l’initiative de créer ce site seule. Il me permet de m’exercer, de centraliser mes travaux, mes informations et mes contacts, tout en mettant en avant mes compétences et ma créativité.
+<br/>Ce projet, c’est moi, Anaïs. En pleine reconversion professionnelle dans le développement web, j’ai pris l’initiative de créer ce site seule. Il me permet de m’exercer, de centraliser mes travaux, mes informations et mes contacts, tout en mettant en avant mes compétences et ma créativité.
 
 **Qu’est-ce que ce projet ?**
 <br/>C’est un site web pensé en mobile-first qui centralise plusieurs liens importants : mon CV (en version en ligne et PDF), mon profil LinkedIn, le prototype Figma de mon projet, "Ver'ify Compost", à réaliser durant ma formation (un site web mobile dédié à l’aide au tri des biodéchets), mon portfolio photo sur Flickr, où je partage ma passion pour la macrophotographie, et enfin, mes coordonnées accessibles en un clic. Ce projet n’est pas seulement un moyen pratique de regrouper mes ressources, c’est aussi une démonstration concrète de mes compétences techniques et de mon sens de la créativité..
