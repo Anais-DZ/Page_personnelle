@@ -104,7 +104,7 @@ a:active {
     justify-self: center;
 }
 
-/* Fond sombre pour l'overlay */
+/* Fond clair pour l'overlay */
 .overlay {
     display: none;
     position: fixed;
@@ -113,7 +113,7 @@ a:active {
     width: 100%;
     height: 100%;
     background: rgba(240, 237, 239, 0.7);
-    z-index: 1000;
+    z-index: 1;
     justify-content: center;
     align-items: center;
 }
@@ -127,7 +127,7 @@ a:active {
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-    z-index: 10; /* Assure que l'overlay-content reste au-dessus de l'overlay */
+    z-index: 2; /* Assure que l'overlay-content reste au-dessus de l'overlay */
 }
 
 .overlay-content ul {
