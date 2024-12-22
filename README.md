@@ -1,7 +1,7 @@
 # Page_personnelle
 
 **Qui a fait ce projet ?**
-<br/>Ce projet, c’est moi, Anaïs. En pleine reconversion professionnelle vers le développement web, j’ai pris l’initiative de créer ce site seule. Il me permet de m’exercer, de centraliser mes travaux, mes informations et mes contacts, tout en mettant en avant mes compétences et ma créativité.
+<br/>Ce projet, c’est moi, Anaïs. En pleine reconversion professionnelle dans le développement web, j’ai pris l’initiative de créer ce site seule. Il me permet de m’exercer, de centraliser mes travaux, mes informations et mes contacts, tout en mettant en avant mes compétences et ma créativité.
 
 **Qu’est-ce que ce projet ?**
 <br/>C’est un site web pensé en mobile-first qui centralise plusieurs liens importants : mon CV (en version en ligne et PDF), mon profil LinkedIn, le prototype Figma de mon projet, "Ver'ify Compost", à réaliser durant ma formation (un site web mobile dédié à l’aide au tri des biodéchets), mon portfolio photo sur Flickr, où je partage ma passion pour la macrophotographie, et enfin, mes coordonnées accessibles en un clic. Ce projet n’est pas seulement un moyen pratique de regrouper mes ressources, c’est aussi une démonstration concrète de mes compétences techniques et de mon sens de la créativité..
@@ -16,7 +16,7 @@
 <br/>Le design est pensé d’abord pour une utilisation mobile, avec une interface épurée, intuitive et accessible. La version desktop est prévue pour une phase ultérieure. Le site reflète mon attention aux détails et mon souci de proposer une navigation fluide et agréable.
 
 **Quelle est l’étape actuelle ?**
-<br/>Le projet est en cours de développement. La version mobile-first est fonctionnelle mais nécessite des améliorations. Je compte d’abord perfectionner cette version, puis travailler sur l’adaptation pour les écrans plus larges (desktop). Tout commentaire ou retour constructif est le bienvenu !
+<br/>Le projet est en cours de développement. La version mobile-first est fonctionnelle mais nécessite des améliorations (correction à venir sur les overlays). Je compte d’abord perfectionner cette version, puis travailler sur l’adaptation pour les écrans plus larges (desktop). Tout commentaire ou retour constructif est le bienvenu !
 
 **Que contient ce projet ?**
 <br/>Le site est entièrement conçu en HTML et CSS pour l’instant. Il centralise plusieurs liens utiles et met en avant des projets importants pour illustrer mes compétences (comme mon projet "Ver'ify Compost") et ma créativité (grâce à ma galerie de macrophotographie). Ce projet est conçu comme une base évolutive qui pourra intégrer d’autres fonctionnalités au fur et à mesure.
